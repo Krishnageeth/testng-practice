@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\krish\AppData\Local\Temp\testng-eclipse-1862493770\testng-customsuite.xml</span>
+                    <span>C:\Users\krish\AppData\Local\Temp\testng-eclipse-1992636072\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.automation.testng.TitleTest" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.automation.testng.TitleTest" class="method navigator-link" hash-for-method="verifyAlphabet">verifyAlphabet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.automation.testng.TitleTest" class="method navigator-link" hash-for-method="verifyFacebokTitle">verifyFacebokTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.automation.testng.TitleTest" class="method navigator-link" hash-for-method="verifyGoogleTitle">verifyGoogleTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -126,9 +136,23 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyTitle">
-                  </a> <!-- verifyTitle -->
-                  <span class="method-name">verifyTitle</span>
+                  <a name="verifyAlphabet">
+                  </a> <!-- verifyAlphabet -->
+                  <span class="method-name">verifyAlphabet</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFacebokTitle">
+                  </a> <!-- verifyFacebokTitle -->
+                  <span class="method-name">verifyFacebokTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGoogleTitle">
+                  </a> <!-- verifyGoogleTitle -->
+                  <span class="method-name">verifyGoogleTitle</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +160,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\krish\AppData\Local\Temp\testng-eclipse-1862493770\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\krish\AppData\Local\Temp\testng-eclipse-1992636072\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -185,16 +209,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyTitle')
+data.setCell(0, 1, 'verifyAlphabet')
 data.setCell(0, 2, 'com.automation.testng.TitleTest')
-data.setCell(0, 3, 20781);
+data.setCell(0, 3, 12818);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyGoogleTitle')
+data.setCell(1, 2, 'com.automation.testng.TitleTest')
+data.setCell(1, 3, 6309);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyFacebokTitle')
+data.setCell(2, 2, 'com.automation.testng.TitleTest')
+data.setCell(2, 3, 5519);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -222,8 +254,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.automation.testng.TitleTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">verifyTitle</span>
+                <span class="method-name">verifyAlphabet</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFacebokTitle</span>
+                <span class="method-start">12827 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGoogleTitle</span>
+                <span class="method-start">18356 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
