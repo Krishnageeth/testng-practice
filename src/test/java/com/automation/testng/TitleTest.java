@@ -17,5 +17,6 @@ public class TitleTest {
 		webDriver.get("https://www.google.com");
 		String title = webDriver.getTitle();
 		assertEquals("Google", title);
+		webDriver.close();
 	}
 }
